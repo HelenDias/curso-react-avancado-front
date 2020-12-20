@@ -15,7 +15,8 @@ export default function Home({ title = 'React Avançado!' }: Props) {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://www.udemy.com/course/react-avancado">{title}</a>
+          Welcome to{' '}
+          <a href="https://www.udemy.com/course/react-avancado">{title}</a>
         </h1>
 
         <p className={styles.description}>
